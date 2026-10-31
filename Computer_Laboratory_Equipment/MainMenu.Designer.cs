@@ -37,24 +37,24 @@
             this.button5 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.panel7.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -142,14 +142,61 @@
             this.panel2.Size = new System.Drawing.Size(615, 445);
             this.panel2.TabIndex = 8;
             // 
-            // panel3
+            // panel5
             // 
-            this.panel3.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.panel3.Controls.Add(this.label3);
-            this.panel3.Location = new System.Drawing.Point(83, 113);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(205, 107);
-            this.panel3.TabIndex = 0;
+            this.panel5.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.panel5.Controls.Add(this.label6);
+            this.panel5.Location = new System.Drawing.Point(337, 242);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(205, 107);
+            this.panel5.TabIndex = 1;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(75, 45);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(64, 16);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "Defective";
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.panel6.Controls.Add(this.label5);
+            this.panel6.Location = new System.Drawing.Point(83, 242);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(205, 107);
+            this.panel6.TabIndex = 1;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(52, 45);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(88, 16);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Under Repair";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.panel4.Controls.Add(this.label4);
+            this.panel4.Location = new System.Drawing.Point(337, 113);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(205, 107);
+            this.panel4.TabIndex = 1;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(75, 50);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(64, 16);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Available";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label2
             // 
@@ -161,32 +208,14 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Welcome, Admin!";
             // 
-            // panel4
+            // panel3
             // 
-            this.panel4.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.panel4.Controls.Add(this.label4);
-            this.panel4.Location = new System.Drawing.Point(337, 113);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(205, 107);
-            this.panel4.TabIndex = 1;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.panel5.Controls.Add(this.label6);
-            this.panel5.Location = new System.Drawing.Point(337, 242);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(205, 107);
-            this.panel5.TabIndex = 1;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.panel6.Controls.Add(this.label5);
-            this.panel6.Location = new System.Drawing.Point(83, 242);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(205, 107);
-            this.panel6.TabIndex = 1;
+            this.panel3.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.panel3.Controls.Add(this.label3);
+            this.panel3.Location = new System.Drawing.Point(83, 113);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(205, 107);
+            this.panel3.TabIndex = 0;
             // 
             // label3
             // 
@@ -199,35 +228,6 @@
             this.label3.Text = "Total Equipment";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(75, 50);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 16);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Available";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(52, 45);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(88, 16);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Under Repair";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(75, 45);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(64, 16);
-            this.label6.TabIndex = 2;
-            this.label6.Text = "Defective";
-            // 
             // panel7
             // 
             this.panel7.Controls.Add(this.label8);
@@ -236,6 +236,15 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(791, 29);
             this.panel7.TabIndex = 2;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(737, 8);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(48, 16);
+            this.label8.TabIndex = 1;
+            this.label8.Text = "Ready";
             // 
             // label7
             // 
@@ -247,20 +256,11 @@
             this.label7.TabIndex = 0;
             this.label7.Text = "Logged In: Admin ";
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(737, 8);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(48, 16);
-            this.label8.TabIndex = 1;
-            this.label8.Text = "Ready";
-            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(808, 450);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.button4);
@@ -275,14 +275,14 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.ResumeLayout(false);
